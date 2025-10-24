@@ -1,0 +1,80 @@
+default:
+  UVPP_Training_Window: 30
+  MVPP_Training_Window: 30
+  cobase_dir: "./" #"./COBASE_github"
+  results_folder: "Results/"
+  data_folder: "Data/"
+  #dm_crps_sampling_benchmark: 
+  dmcrps_bm:
+    - EMOS-R
+  #dm_crps_sampling_models: 
+  dmcrps_models:
+    - EMOS-Q
+  #dm_mvscores_benchmark: 
+  dmmvsimssh_bm: 
+    - SimSchaake-R
+  #dm_mvscores_models: 
+  dmmvsimssh_models:
+    - SimSchaake-Q 
+
+  #dm_mvscores_main_benchmark: 
+  dmesvs_mvpp_bm:
+    - CopGCA
+    - COBASE-CopGCA-Q
+
+  #dm_mvscores_main_models: 
+  dmesvs_mvpp_models:
+    - SimSchaake-Q
+    - SSh-I14-Q
+    - ECC-Q
+    - COBASE-CopGCA-Q 
+    - CopGCA
+
+  
+  dmesvs_parcop_bm:
+    - CopGCA
+    - Clayton
+    - Frank
+    - Gumbel
+  
+  dmesvs_parcop_models:
+    - COBASE-CopGCA-Q 
+    - COBASE-Clayton-Q 
+    - COBASE-Frank-Q 
+    - COBASE-Gumbel-Q 
+    
+  crps_scores_models:
+    - EMOS-R
+    - EMOS-Q
+    - CopGCA
+    - Gumbel
+    - Clayton
+    - Frank
+    
+  mvpp_scores_models:
+    - ens
+    - SSh-I14-Q
+    - SimSchaake-R
+    - SimSchaake-Q
+    - ECC-Q
+    - CopGCA
+    - Clayton
+    - Frank
+    - Gumbel
+    - COBASE-CopGCA-Q
+    - COBASE-Clayton-Q
+    - COBASE-Frank-Q
+    - COBASE-Gumbel-Q
+  model_names_unshuffled:
+    - CopGCA
+    - Clayton
+    - Frank
+    - Gumbel
+  model_names_shuffled:
+    - CopGCAsh-Q
+    - Claytonsh-Q
+    - Franksh-Q
+    - Gumbelsh-Q
+  
+
+  
