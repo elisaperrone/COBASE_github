@@ -119,8 +119,6 @@ install.packages(c("dplyr", "tidyr", "ggplot2", "xtable", "yaml"))
 
 ---
 
----
-
 ### Note on Code Origin
 
 Portions of this repository are adapted from the [*multiv_pp* package by Lerch et al. (2020)](https://github.com/slerch/multiv_pp). These components have been modified and extended to support the specific case studies and methodological developments presented in the accompanying paper.
