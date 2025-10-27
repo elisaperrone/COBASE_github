@@ -119,6 +119,17 @@ install.packages(c("dplyr", "tidyr", "ggplot2", "xtable", "yaml"))
 
 ---
 
+---
+
+### Note on Code Origin
+
+Portions of this repository are adapted from the [*multiv_pp* package by Lerch et al. (2020)](https://github.com/slerch/multiv_pp). These components have been modified and extended to support the specific case studies and methodological developments presented in the accompanying paper.
+
+**Reference:**  
+Lerch, S., Baran, S., Möller, A., Groß, J., Schefzik, R., Hemri, S., & Gräter, M. (2020). *Simulation-based comparison of multivariate ensemble post-processing methods.* *Nonlinear Processes in Geophysics Discussions.* [https://doi.org/10.5194/npg-2019-62](https://doi.org/10.5194/npg-2019-62)
+
+---
+
 ## License
 
 This repository is released under the [MIT License](LICENSE).
